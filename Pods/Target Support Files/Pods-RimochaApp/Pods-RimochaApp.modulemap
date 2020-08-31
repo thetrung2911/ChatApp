@@ -1,6 +1,0 @@
-framework module Pods_RimochaApp {
-  umbrella header "Pods-RimochaApp-umbrella.h"
-
-  export *
-  module * { export * }
-}
