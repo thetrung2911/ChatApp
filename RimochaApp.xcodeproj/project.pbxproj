@@ -1,0 +1,993 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		252AE4CC24FCE0EB00A856C2 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252AE4CB24FCE0EB00A856C2 /* HomePresenter.swift */; };
+		252AE4CD24FCE0EB00A856C2 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252AE4CB24FCE0EB00A856C2 /* HomePresenter.swift */; };
+		252AE4CE24FCE0EB00A856C2 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252AE4CB24FCE0EB00A856C2 /* HomePresenter.swift */; };
+		252AE4D024FCE10B00A856C2 /* HomeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252AE4CF24FCE10B00A856C2 /* HomeProtocol.swift */; };
+		252AE4D124FCE10B00A856C2 /* HomeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252AE4CF24FCE10B00A856C2 /* HomeProtocol.swift */; };
+		252AE4D224FCE10B00A856C2 /* HomeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252AE4CF24FCE10B00A856C2 /* HomeProtocol.swift */; };
+		256336AC24F88DDE00AFEBD9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA358F24F74F4100095715 /* LoginViewController.swift */; };
+		256336AD24F88DDE00AFEBD9 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F6AA9224F7BE19003646C9 /* UIButtonExtension.swift */; };
+		256336AE24F88DDE00AFEBD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F0203424F747B700F86402 /* AppDelegate.swift */; };
+		256336AF24F88DDE00AFEBD9 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259A5C2F24F763D0004AF37E /* UIViewControllerExtension.swift */; };
+		256336B024F88DDE00AFEBD9 /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259A5C2D24F75F9C004AF37E /* UIApplicationExtension.swift */; };
+		256336B124F88DDE00AFEBD9 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA359324F7506800095715 /* Define.swift */; };
+		256336B224F88DDE00AFEBD9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259A5C3224F78BF0004AF37E /* HomeViewController.swift */; };
+		256336B324F88DDE00AFEBD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F0203624F747B700F86402 /* SceneDelegate.swift */; };
+		256336B524F88DDE00AFEBD9 /* Pods_RimochaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E50EA79B1952F2D1359ABA /* Pods_RimochaApp.framework */; };
+		256336B724F88DDE00AFEBD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25F0203F24F747BF00F86402 /* LaunchScreen.storyboard */; };
+		256336B924F88DDE00AFEBD9 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259A5C3424F78C03004AF37E /* Home.storyboard */; };
+		256336BA24F88DDE00AFEBD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25F0203D24F747BF00F86402 /* Assets.xcassets */; };
+		256336BB24F88DDE00AFEBD9 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25EA359524F7509A00095715 /* Login.storyboard */; };
+		256336C524F88E9200AFEBD9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA358F24F74F4100095715 /* LoginViewController.swift */; };
+		256336C624F88E9200AFEBD9 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F6AA9224F7BE19003646C9 /* UIButtonExtension.swift */; };
+		256336C724F88E9200AFEBD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F0203424F747B700F86402 /* AppDelegate.swift */; };
+		256336C824F88E9200AFEBD9 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259A5C2F24F763D0004AF37E /* UIViewControllerExtension.swift */; };
+		256336C924F88E9200AFEBD9 /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259A5C2D24F75F9C004AF37E /* UIApplicationExtension.swift */; };
+		256336CA24F88E9200AFEBD9 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA359324F7506800095715 /* Define.swift */; };
+		256336CB24F88E9200AFEBD9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259A5C3224F78BF0004AF37E /* HomeViewController.swift */; };
+		256336CC24F88E9200AFEBD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F0203624F747B700F86402 /* SceneDelegate.swift */; };
+		256336CE24F88E9200AFEBD9 /* Pods_RimochaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E50EA79B1952F2D1359ABA /* Pods_RimochaApp.framework */; };
+		256336D024F88E9200AFEBD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25F0203F24F747BF00F86402 /* LaunchScreen.storyboard */; };
+		256336D224F88E9200AFEBD9 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259A5C3424F78C03004AF37E /* Home.storyboard */; };
+		256336D324F88E9200AFEBD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25F0203D24F747BF00F86402 /* Assets.xcassets */; };
+		256336D424F88E9200AFEBD9 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25EA359524F7509A00095715 /* Login.storyboard */; };
+		256336E924F89A8F00AFEBD9 /* RimochaApp-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25F0204224F747BF00F86402 /* RimochaApp-Info.plist */; };
+		256336EA24F89A8F00AFEBD9 /* RimochaApp-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25F0204224F747BF00F86402 /* RimochaApp-Info.plist */; };
+		256336EB24F89A9000AFEBD9 /* RimochaApp-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25F0204224F747BF00F86402 /* RimochaApp-Info.plist */; };
+		256336ED24F89C0000AFEBD9 /* DEVRimochaApp-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 256336EC24F89C0000AFEBD9 /* DEVRimochaApp-Info.plist */; };
+		256336EF24F89C1F00AFEBD9 /* STGRimochaApp-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 256336EE24F89C1F00AFEBD9 /* STGRimochaApp-Info.plist */; };
+		256336F024F89C1F00AFEBD9 /* STGRimochaApp-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 256336EE24F89C1F00AFEBD9 /* STGRimochaApp-Info.plist */; };
+		256336F124F89C1F00AFEBD9 /* STGRimochaApp-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 256336EE24F89C1F00AFEBD9 /* STGRimochaApp-Info.plist */; };
+		256336F224F89DA700AFEBD9 /* DEVRimochaApp-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 256336EC24F89C0000AFEBD9 /* DEVRimochaApp-Info.plist */; };
+		256336F324F89DA800AFEBD9 /* DEVRimochaApp-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 256336EC24F89C0000AFEBD9 /* DEVRimochaApp-Info.plist */; };
+		256336F624F8A82500AFEBD9 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256336F524F8A82500AFEBD9 /* RegisterViewController.swift */; };
+		256336F724F8A82500AFEBD9 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256336F524F8A82500AFEBD9 /* RegisterViewController.swift */; };
+		256336F824F8A82500AFEBD9 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256336F524F8A82500AFEBD9 /* RegisterViewController.swift */; };
+		256336FA24F8A83400AFEBD9 /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 256336F924F8A83400AFEBD9 /* Register.storyboard */; };
+		256336FB24F8A83400AFEBD9 /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 256336F924F8A83400AFEBD9 /* Register.storyboard */; };
+		256336FC24F8A83400AFEBD9 /* Register.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 256336F924F8A83400AFEBD9 /* Register.storyboard */; };
+		256336FE24F8B0B300AFEBD9 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256336FD24F8B0B300AFEBD9 /* StringExtension.swift */; };
+		256336FF24F8B0B300AFEBD9 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256336FD24F8B0B300AFEBD9 /* StringExtension.swift */; };
+		2563370024F8B0B300AFEBD9 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256336FD24F8B0B300AFEBD9 /* StringExtension.swift */; };
+		2563371024F900B700AFEBD9 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2563370F24F900B700AFEBD9 /* LoginPresenter.swift */; };
+		2563371124F900B700AFEBD9 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2563370F24F900B700AFEBD9 /* LoginPresenter.swift */; };
+		2563371224F900B700AFEBD9 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2563370F24F900B700AFEBD9 /* LoginPresenter.swift */; };
+		2563371424F9010D00AFEBD9 /* LoginProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2563371324F9010D00AFEBD9 /* LoginProtocol.swift */; };
+		2563371524F9010D00AFEBD9 /* LoginProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2563371324F9010D00AFEBD9 /* LoginProtocol.swift */; };
+		2563371624F9010D00AFEBD9 /* LoginProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2563371324F9010D00AFEBD9 /* LoginProtocol.swift */; };
+		2563371824F901A200AFEBD9 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2563371724F901A200AFEBD9 /* DataService.swift */; };
+		2563371924F901A200AFEBD9 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2563371724F901A200AFEBD9 /* DataService.swift */; };
+		2563371A24F901A200AFEBD9 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2563371724F901A200AFEBD9 /* DataService.swift */; };
+		2563371C24F9038500AFEBD9 /* ExtensionDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2563371B24F9038500AFEBD9 /* ExtensionDictionary.swift */; };
+		2563371D24F9038500AFEBD9 /* ExtensionDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2563371B24F9038500AFEBD9 /* ExtensionDictionary.swift */; };
+		2563371E24F9038500AFEBD9 /* ExtensionDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2563371B24F9038500AFEBD9 /* ExtensionDictionary.swift */; };
+		2563372024F9073F00AFEBD9 /* getRequestFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2563371F24F9073F00AFEBD9 /* getRequestFirebase.swift */; };
+		2563372124F9073F00AFEBD9 /* getRequestFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2563371F24F9073F00AFEBD9 /* getRequestFirebase.swift */; };
+		2563372224F9073F00AFEBD9 /* getRequestFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2563371F24F9073F00AFEBD9 /* getRequestFirebase.swift */; };
+		2563372424F90E0000AFEBD9 /* RegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2563372324F90E0000AFEBD9 /* RegisterPresenter.swift */; };
+		2563372524F90E0000AFEBD9 /* RegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2563372324F90E0000AFEBD9 /* RegisterPresenter.swift */; };
+		2563372624F90E0000AFEBD9 /* RegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2563372324F90E0000AFEBD9 /* RegisterPresenter.swift */; };
+		2563372824F90E1A00AFEBD9 /* RegisterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2563372724F90E1A00AFEBD9 /* RegisterProtocol.swift */; };
+		2563372924F90E1A00AFEBD9 /* RegisterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2563372724F90E1A00AFEBD9 /* RegisterProtocol.swift */; };
+		2563372A24F90E1A00AFEBD9 /* RegisterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2563372724F90E1A00AFEBD9 /* RegisterProtocol.swift */; };
+		259A5C2E24F75F9C004AF37E /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259A5C2D24F75F9C004AF37E /* UIApplicationExtension.swift */; };
+		259A5C3024F763D0004AF37E /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259A5C2F24F763D0004AF37E /* UIViewControllerExtension.swift */; };
+		259A5C3324F78BF0004AF37E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259A5C3224F78BF0004AF37E /* HomeViewController.swift */; };
+		259A5C3524F78C03004AF37E /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259A5C3424F78C03004AF37E /* Home.storyboard */; };
+		25EA359024F74F4100095715 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA358F24F74F4100095715 /* LoginViewController.swift */; };
+		25EA359424F7506800095715 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA359324F7506800095715 /* Define.swift */; };
+		25EA359624F7509A00095715 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25EA359524F7509A00095715 /* Login.storyboard */; };
+		25EA6DCD24FC8314004C3B24 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25EA6DCC24FC8314004C3B24 /* GoogleService-Info.plist */; };
+		25EA6DCE24FC8314004C3B24 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25EA6DCC24FC8314004C3B24 /* GoogleService-Info.plist */; };
+		25EA6DCF24FC8314004C3B24 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25EA6DCC24FC8314004C3B24 /* GoogleService-Info.plist */; };
+		25EA6DD224FC8F9F004C3B24 /* RadioButtonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA6DD124FC8F9F004C3B24 /* RadioButtonController.swift */; };
+		25EA6DD324FC8F9F004C3B24 /* RadioButtonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA6DD124FC8F9F004C3B24 /* RadioButtonController.swift */; };
+		25EA6DD424FC8F9F004C3B24 /* RadioButtonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA6DD124FC8F9F004C3B24 /* RadioButtonController.swift */; };
+		25EA6DD624FC914E004C3B24 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA6DD524FC914E004C3B24 /* UserManager.swift */; };
+		25EA6DD724FC914E004C3B24 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA6DD524FC914E004C3B24 /* UserManager.swift */; };
+		25EA6DD824FC914E004C3B24 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA6DD524FC914E004C3B24 /* UserManager.swift */; };
+		25EA6DE124FC95BB004C3B24 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA6DDF24FC95BB004C3B24 /* StorageManager.swift */; };
+		25EA6DE224FC95BB004C3B24 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA6DDF24FC95BB004C3B24 /* StorageManager.swift */; };
+		25EA6DE324FC95BB004C3B24 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA6DDF24FC95BB004C3B24 /* StorageManager.swift */; };
+		25EA6DE424FC95BB004C3B24 /* DatabaseManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA6DE024FC95BB004C3B24 /* DatabaseManagement.swift */; };
+		25EA6DE524FC95BB004C3B24 /* DatabaseManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA6DE024FC95BB004C3B24 /* DatabaseManagement.swift */; };
+		25EA6DE624FC95BB004C3B24 /* DatabaseManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA6DE024FC95BB004C3B24 /* DatabaseManagement.swift */; };
+		25F0203524F747B700F86402 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F0203424F747B700F86402 /* AppDelegate.swift */; };
+		25F0203724F747B700F86402 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F0203624F747B700F86402 /* SceneDelegate.swift */; };
+		25F0203E24F747BF00F86402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25F0203D24F747BF00F86402 /* Assets.xcassets */; };
+		25F0204124F747BF00F86402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25F0203F24F747BF00F86402 /* LaunchScreen.storyboard */; };
+		25F6AA9324F7BE19003646C9 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F6AA9224F7BE19003646C9 /* UIButtonExtension.swift */; };
+		C0411CBFB487C5B82F521486 /* Pods_RimochaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E50EA79B1952F2D1359ABA /* Pods_RimochaApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0932BA5DC61C88451A0A44D4 /* Pods-RimochaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RimochaApp.release.xcconfig"; path = "Target Support Files/Pods-RimochaApp/Pods-RimochaApp.release.xcconfig"; sourceTree = "<group>"; };
+		10E50EA79B1952F2D1359ABA /* Pods_RimochaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RimochaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		252AE4CB24FCE0EB00A856C2 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		252AE4CF24FCE10B00A856C2 /* HomeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocol.swift; sourceTree = "<group>"; };
+		256336C024F88DDE00AFEBD9 /* DEVRimocha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DEVRimocha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		256336D924F88E9200AFEBD9 /* STGRimocha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STGRimocha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		256336EC24F89C0000AFEBD9 /* DEVRimochaApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DEVRimochaApp-Info.plist"; sourceTree = "<group>"; };
+		256336EE24F89C1F00AFEBD9 /* STGRimochaApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "STGRimochaApp-Info.plist"; sourceTree = "<group>"; };
+		256336F524F8A82500AFEBD9 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		256336F924F8A83400AFEBD9 /* Register.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Register.storyboard; sourceTree = "<group>"; };
+		256336FD24F8B0B300AFEBD9 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		2563370F24F900B700AFEBD9 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		2563371324F9010D00AFEBD9 /* LoginProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocol.swift; sourceTree = "<group>"; };
+		2563371724F901A200AFEBD9 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DataService.swift; path = RimochaApp/LoginViewController/DataService.swift; sourceTree = SOURCE_ROOT; };
+		2563371B24F9038500AFEBD9 /* ExtensionDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDictionary.swift; sourceTree = "<group>"; };
+		2563371F24F9073F00AFEBD9 /* getRequestFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = getRequestFirebase.swift; path = RimochaApp/Extension/getRequestFirebase.swift; sourceTree = SOURCE_ROOT; };
+		2563372324F90E0000AFEBD9 /* RegisterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPresenter.swift; sourceTree = "<group>"; };
+		2563372724F90E1A00AFEBD9 /* RegisterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterProtocol.swift; sourceTree = "<group>"; };
+		259A5C2D24F75F9C004AF37E /* UIApplicationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
+		259A5C2F24F763D0004AF37E /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		259A5C3224F78BF0004AF37E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		259A5C3424F78C03004AF37E /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		25EA358F24F74F4100095715 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		25EA359324F7506800095715 /* Define.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
+		25EA359524F7509A00095715 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		25EA6DCC24FC8314004C3B24 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		25EA6DD124FC8F9F004C3B24 /* RadioButtonController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonController.swift; sourceTree = "<group>"; };
+		25EA6DD524FC914E004C3B24 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserManager.swift; path = RimochaApp/RadioButtonController/UserManager.swift; sourceTree = SOURCE_ROOT; };
+		25EA6DDF24FC95BB004C3B24 /* StorageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		25EA6DE024FC95BB004C3B24 /* DatabaseManagement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseManagement.swift; sourceTree = "<group>"; };
+		25F0203124F747B700F86402 /* Rimocha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rimocha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25F0203424F747B700F86402 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25F0203624F747B700F86402 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		25F0203D24F747BF00F86402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25F0204024F747BF00F86402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25F0204224F747BF00F86402 /* RimochaApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RimochaApp-Info.plist"; sourceTree = "<group>"; };
+		25F6AA9224F7BE19003646C9 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		616A468C3690D63DDF76FDAC /* Pods-RimochaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RimochaApp.debug.xcconfig"; path = "Target Support Files/Pods-RimochaApp/Pods-RimochaApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		256336B424F88DDE00AFEBD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256336B524F88DDE00AFEBD9 /* Pods_RimochaApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256336CD24F88E9200AFEBD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256336CE24F88E9200AFEBD9 /* Pods_RimochaApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F0202E24F747B600F86402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0411CBFB487C5B82F521486 /* Pods_RimochaApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		256336F424F8A7F600AFEBD9 /* RegisterViewController */ = {
+			isa = PBXGroup;
+			children = (
+				256336F524F8A82500AFEBD9 /* RegisterViewController.swift */,
+				2563372324F90E0000AFEBD9 /* RegisterPresenter.swift */,
+				2563372724F90E1A00AFEBD9 /* RegisterProtocol.swift */,
+				256336F924F8A83400AFEBD9 /* Register.storyboard */,
+			);
+			path = RegisterViewController;
+			sourceTree = "<group>";
+		};
+		259A5C2924F75DA2004AF37E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				25EA6DCC24FC8314004C3B24 /* GoogleService-Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		259A5C2C24F75DD7004AF37E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2563371F24F9073F00AFEBD9 /* getRequestFirebase.swift */,
+				25EA6DD524FC914E004C3B24 /* UserManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		259A5C3124F78BBC004AF37E /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				259A5C3224F78BF0004AF37E /* HomeViewController.swift */,
+				252AE4CB24FCE0EB00A856C2 /* HomePresenter.swift */,
+				252AE4CF24FCE10B00A856C2 /* HomeProtocol.swift */,
+				259A5C3424F78C03004AF37E /* Home.storyboard */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		25EA358B24F74DA900095715 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				259A5C2D24F75F9C004AF37E /* UIApplicationExtension.swift */,
+				259A5C2F24F763D0004AF37E /* UIViewControllerExtension.swift */,
+				25F6AA9224F7BE19003646C9 /* UIButtonExtension.swift */,
+				256336FD24F8B0B300AFEBD9 /* StringExtension.swift */,
+				2563371B24F9038500AFEBD9 /* ExtensionDictionary.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		25EA358C24F74DF800095715 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				256336EC24F89C0000AFEBD9 /* DEVRimochaApp-Info.plist */,
+				256336EE24F89C1F00AFEBD9 /* STGRimochaApp-Info.plist */,
+				25F0204224F747BF00F86402 /* RimochaApp-Info.plist */,
+				25EA359324F7506800095715 /* Define.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		25EA358D24F74E2F00095715 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				25EA6DDE24FC956A004C3B24 /* DatabaseManager */,
+				2563371724F901A200AFEBD9 /* DataService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		25EA358E24F74F2800095715 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				25EA358F24F74F4100095715 /* LoginViewController.swift */,
+				2563370F24F900B700AFEBD9 /* LoginPresenter.swift */,
+				2563371324F9010D00AFEBD9 /* LoginProtocol.swift */,
+				25EA359524F7509A00095715 /* Login.storyboard */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		25EA359724F751FC00095715 /* TabbarViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TabbarViewController;
+			sourceTree = "<group>";
+		};
+		25EA6DD024FC8F84004C3B24 /* RadioButtonController */ = {
+			isa = PBXGroup;
+			children = (
+				25EA6DD124FC8F9F004C3B24 /* RadioButtonController.swift */,
+			);
+			path = RadioButtonController;
+			sourceTree = "<group>";
+		};
+		25EA6DDE24FC956A004C3B24 /* DatabaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				25EA6DE024FC95BB004C3B24 /* DatabaseManagement.swift */,
+				25EA6DDF24FC95BB004C3B24 /* StorageManager.swift */,
+			);
+			path = DatabaseManager;
+			sourceTree = "<group>";
+		};
+		25F0202824F747B600F86402 = {
+			isa = PBXGroup;
+			children = (
+				25F0203324F747B700F86402 /* RimochaApp */,
+				25F0203224F747B700F86402 /* Products */,
+				B05D9E7A2FE756C338636AAD /* Pods */,
+				C36C53FDA7B8D6236C3E3ADF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		25F0203224F747B700F86402 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25F0203124F747B700F86402 /* Rimocha.app */,
+				256336C024F88DDE00AFEBD9 /* DEVRimocha.app */,
+				256336D924F88E9200AFEBD9 /* STGRimocha.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25F0203324F747B700F86402 /* RimochaApp */ = {
+			isa = PBXGroup;
+			children = (
+				25EA6DD024FC8F84004C3B24 /* RadioButtonController */,
+				259A5C3124F78BBC004AF37E /* HomeViewController */,
+				25EA359724F751FC00095715 /* TabbarViewController */,
+				256336F424F8A7F600AFEBD9 /* RegisterViewController */,
+				25EA358E24F74F2800095715 /* LoginViewController */,
+				25EA358D24F74E2F00095715 /* Service */,
+				25EA358B24F74DA900095715 /* Extension */,
+				259A5C2C24F75DD7004AF37E /* Model */,
+				259A5C2924F75DA2004AF37E /* Resource */,
+				25EA358C24F74DF800095715 /* Support */,
+				25F0203424F747B700F86402 /* AppDelegate.swift */,
+				25F0203624F747B700F86402 /* SceneDelegate.swift */,
+				25F0203D24F747BF00F86402 /* Assets.xcassets */,
+				25F0203F24F747BF00F86402 /* LaunchScreen.storyboard */,
+			);
+			path = RimochaApp;
+			sourceTree = "<group>";
+		};
+		B05D9E7A2FE756C338636AAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				616A468C3690D63DDF76FDAC /* Pods-RimochaApp.debug.xcconfig */,
+				0932BA5DC61C88451A0A44D4 /* Pods-RimochaApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C36C53FDA7B8D6236C3E3ADF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10E50EA79B1952F2D1359ABA /* Pods_RimochaApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		256336A924F88DDE00AFEBD9 /* DEVRimochaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 256336BD24F88DDE00AFEBD9 /* Build configuration list for PBXNativeTarget "DEVRimochaApp" */;
+			buildPhases = (
+				256336AA24F88DDE00AFEBD9 /* [CP] Check Pods Manifest.lock */,
+				256336AB24F88DDE00AFEBD9 /* Sources */,
+				256336B424F88DDE00AFEBD9 /* Frameworks */,
+				256336B624F88DDE00AFEBD9 /* Resources */,
+				256336BC24F88DDE00AFEBD9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DEVRimochaApp;
+			productName = RimochaApp;
+			productReference = 256336C024F88DDE00AFEBD9 /* DEVRimocha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		256336C224F88E9200AFEBD9 /* STGRimochaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 256336D624F88E9200AFEBD9 /* Build configuration list for PBXNativeTarget "STGRimochaApp" */;
+			buildPhases = (
+				256336C324F88E9200AFEBD9 /* [CP] Check Pods Manifest.lock */,
+				256336C424F88E9200AFEBD9 /* Sources */,
+				256336CD24F88E9200AFEBD9 /* Frameworks */,
+				256336CF24F88E9200AFEBD9 /* Resources */,
+				256336D524F88E9200AFEBD9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STGRimochaApp;
+			productName = RimochaApp;
+			productReference = 256336D924F88E9200AFEBD9 /* STGRimocha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25F0203024F747B600F86402 /* RimochaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25F0204524F747BF00F86402 /* Build configuration list for PBXNativeTarget "RimochaApp" */;
+			buildPhases = (
+				D0AC465BF7A1967CFA407F98 /* [CP] Check Pods Manifest.lock */,
+				25F0202D24F747B600F86402 /* Sources */,
+				25F0202E24F747B600F86402 /* Frameworks */,
+				25F0202F24F747B600F86402 /* Resources */,
+				1C0CE3AFD8CEB43D32A4D1F6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RimochaApp;
+			productName = RimochaApp;
+			productReference = 25F0203124F747B700F86402 /* Rimocha.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25F0202924F747B600F86402 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = vnc;
+				TargetAttributes = {
+					25F0203024F747B600F86402 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 25F0202C24F747B600F86402 /* Build configuration list for PBXProject "RimochaApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25F0202824F747B600F86402;
+			productRefGroup = 25F0203224F747B700F86402 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25F0203024F747B600F86402 /* RimochaApp */,
+				256336A924F88DDE00AFEBD9 /* DEVRimochaApp */,
+				256336C224F88E9200AFEBD9 /* STGRimochaApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		256336B624F88DDE00AFEBD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256336B724F88DDE00AFEBD9 /* LaunchScreen.storyboard in Resources */,
+				256336B924F88DDE00AFEBD9 /* Home.storyboard in Resources */,
+				256336EA24F89A8F00AFEBD9 /* RimochaApp-Info.plist in Resources */,
+				256336F024F89C1F00AFEBD9 /* STGRimochaApp-Info.plist in Resources */,
+				256336FB24F8A83400AFEBD9 /* Register.storyboard in Resources */,
+				256336BA24F88DDE00AFEBD9 /* Assets.xcassets in Resources */,
+				256336F224F89DA700AFEBD9 /* DEVRimochaApp-Info.plist in Resources */,
+				25EA6DCE24FC8314004C3B24 /* GoogleService-Info.plist in Resources */,
+				256336BB24F88DDE00AFEBD9 /* Login.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256336CF24F88E9200AFEBD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256336D024F88E9200AFEBD9 /* LaunchScreen.storyboard in Resources */,
+				256336D224F88E9200AFEBD9 /* Home.storyboard in Resources */,
+				256336EB24F89A9000AFEBD9 /* RimochaApp-Info.plist in Resources */,
+				256336F124F89C1F00AFEBD9 /* STGRimochaApp-Info.plist in Resources */,
+				256336FC24F8A83400AFEBD9 /* Register.storyboard in Resources */,
+				256336D324F88E9200AFEBD9 /* Assets.xcassets in Resources */,
+				256336F324F89DA800AFEBD9 /* DEVRimochaApp-Info.plist in Resources */,
+				25EA6DCF24FC8314004C3B24 /* GoogleService-Info.plist in Resources */,
+				256336D424F88E9200AFEBD9 /* Login.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F0202F24F747B600F86402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F0204124F747BF00F86402 /* LaunchScreen.storyboard in Resources */,
+				259A5C3524F78C03004AF37E /* Home.storyboard in Resources */,
+				256336E924F89A8F00AFEBD9 /* RimochaApp-Info.plist in Resources */,
+				25F0203E24F747BF00F86402 /* Assets.xcassets in Resources */,
+				256336FA24F8A83400AFEBD9 /* Register.storyboard in Resources */,
+				256336EF24F89C1F00AFEBD9 /* STGRimochaApp-Info.plist in Resources */,
+				256336ED24F89C0000AFEBD9 /* DEVRimochaApp-Info.plist in Resources */,
+				25EA6DCD24FC8314004C3B24 /* GoogleService-Info.plist in Resources */,
+				25EA359624F7509A00095715 /* Login.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C0CE3AFD8CEB43D32A4D1F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RimochaApp/Pods-RimochaApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RimochaApp/Pods-RimochaApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RimochaApp/Pods-RimochaApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		256336AA24F88DDE00AFEBD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RimochaApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		256336BC24F88DDE00AFEBD9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RimochaApp/Pods-RimochaApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RimochaApp/Pods-RimochaApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RimochaApp/Pods-RimochaApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		256336C324F88E9200AFEBD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RimochaApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		256336D524F88E9200AFEBD9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RimochaApp/Pods-RimochaApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RimochaApp/Pods-RimochaApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RimochaApp/Pods-RimochaApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0AC465BF7A1967CFA407F98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RimochaApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		256336AB24F88DDE00AFEBD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2563371124F900B700AFEBD9 /* LoginPresenter.swift in Sources */,
+				25EA6DD324FC8F9F004C3B24 /* RadioButtonController.swift in Sources */,
+				2563371924F901A200AFEBD9 /* DataService.swift in Sources */,
+				256336F724F8A82500AFEBD9 /* RegisterViewController.swift in Sources */,
+				256336AC24F88DDE00AFEBD9 /* LoginViewController.swift in Sources */,
+				2563372524F90E0000AFEBD9 /* RegisterPresenter.swift in Sources */,
+				256336FF24F8B0B300AFEBD9 /* StringExtension.swift in Sources */,
+				25EA6DE224FC95BB004C3B24 /* StorageManager.swift in Sources */,
+				25EA6DE524FC95BB004C3B24 /* DatabaseManagement.swift in Sources */,
+				2563371D24F9038500AFEBD9 /* ExtensionDictionary.swift in Sources */,
+				2563372924F90E1A00AFEBD9 /* RegisterProtocol.swift in Sources */,
+				2563371524F9010D00AFEBD9 /* LoginProtocol.swift in Sources */,
+				256336AD24F88DDE00AFEBD9 /* UIButtonExtension.swift in Sources */,
+				256336AE24F88DDE00AFEBD9 /* AppDelegate.swift in Sources */,
+				256336AF24F88DDE00AFEBD9 /* UIViewControllerExtension.swift in Sources */,
+				256336B024F88DDE00AFEBD9 /* UIApplicationExtension.swift in Sources */,
+				256336B124F88DDE00AFEBD9 /* Define.swift in Sources */,
+				252AE4D124FCE10B00A856C2 /* HomeProtocol.swift in Sources */,
+				2563372124F9073F00AFEBD9 /* getRequestFirebase.swift in Sources */,
+				256336B224F88DDE00AFEBD9 /* HomeViewController.swift in Sources */,
+				25EA6DD724FC914E004C3B24 /* UserManager.swift in Sources */,
+				256336B324F88DDE00AFEBD9 /* SceneDelegate.swift in Sources */,
+				252AE4CD24FCE0EB00A856C2 /* HomePresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256336C424F88E9200AFEBD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2563371224F900B700AFEBD9 /* LoginPresenter.swift in Sources */,
+				25EA6DD424FC8F9F004C3B24 /* RadioButtonController.swift in Sources */,
+				2563371A24F901A200AFEBD9 /* DataService.swift in Sources */,
+				256336F824F8A82500AFEBD9 /* RegisterViewController.swift in Sources */,
+				256336C524F88E9200AFEBD9 /* LoginViewController.swift in Sources */,
+				2563372624F90E0000AFEBD9 /* RegisterPresenter.swift in Sources */,
+				2563370024F8B0B300AFEBD9 /* StringExtension.swift in Sources */,
+				25EA6DE324FC95BB004C3B24 /* StorageManager.swift in Sources */,
+				25EA6DE624FC95BB004C3B24 /* DatabaseManagement.swift in Sources */,
+				2563371E24F9038500AFEBD9 /* ExtensionDictionary.swift in Sources */,
+				2563372A24F90E1A00AFEBD9 /* RegisterProtocol.swift in Sources */,
+				2563371624F9010D00AFEBD9 /* LoginProtocol.swift in Sources */,
+				256336C624F88E9200AFEBD9 /* UIButtonExtension.swift in Sources */,
+				256336C724F88E9200AFEBD9 /* AppDelegate.swift in Sources */,
+				256336C824F88E9200AFEBD9 /* UIViewControllerExtension.swift in Sources */,
+				256336C924F88E9200AFEBD9 /* UIApplicationExtension.swift in Sources */,
+				256336CA24F88E9200AFEBD9 /* Define.swift in Sources */,
+				252AE4D224FCE10B00A856C2 /* HomeProtocol.swift in Sources */,
+				2563372224F9073F00AFEBD9 /* getRequestFirebase.swift in Sources */,
+				256336CB24F88E9200AFEBD9 /* HomeViewController.swift in Sources */,
+				25EA6DD824FC914E004C3B24 /* UserManager.swift in Sources */,
+				256336CC24F88E9200AFEBD9 /* SceneDelegate.swift in Sources */,
+				252AE4CE24FCE0EB00A856C2 /* HomePresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F0202D24F747B600F86402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2563371024F900B700AFEBD9 /* LoginPresenter.swift in Sources */,
+				25EA6DD224FC8F9F004C3B24 /* RadioButtonController.swift in Sources */,
+				2563371824F901A200AFEBD9 /* DataService.swift in Sources */,
+				256336F624F8A82500AFEBD9 /* RegisterViewController.swift in Sources */,
+				25EA359024F74F4100095715 /* LoginViewController.swift in Sources */,
+				2563372424F90E0000AFEBD9 /* RegisterPresenter.swift in Sources */,
+				256336FE24F8B0B300AFEBD9 /* StringExtension.swift in Sources */,
+				25EA6DE124FC95BB004C3B24 /* StorageManager.swift in Sources */,
+				25EA6DE424FC95BB004C3B24 /* DatabaseManagement.swift in Sources */,
+				2563371C24F9038500AFEBD9 /* ExtensionDictionary.swift in Sources */,
+				2563372824F90E1A00AFEBD9 /* RegisterProtocol.swift in Sources */,
+				25F6AA9324F7BE19003646C9 /* UIButtonExtension.swift in Sources */,
+				2563371424F9010D00AFEBD9 /* LoginProtocol.swift in Sources */,
+				25F0203524F747B700F86402 /* AppDelegate.swift in Sources */,
+				259A5C3024F763D0004AF37E /* UIViewControllerExtension.swift in Sources */,
+				259A5C2E24F75F9C004AF37E /* UIApplicationExtension.swift in Sources */,
+				25EA359424F7506800095715 /* Define.swift in Sources */,
+				252AE4D024FCE10B00A856C2 /* HomeProtocol.swift in Sources */,
+				2563372024F9073F00AFEBD9 /* getRequestFirebase.swift in Sources */,
+				259A5C3324F78BF0004AF37E /* HomeViewController.swift in Sources */,
+				25EA6DD624FC914E004C3B24 /* UserManager.swift in Sources */,
+				25F0203724F747B700F86402 /* SceneDelegate.swift in Sources */,
+				252AE4CC24FCE0EB00A856C2 /* HomePresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25F0203F24F747BF00F86402 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25F0204024F747BF00F86402 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		256336BE24F88DDE00AFEBD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 616A468C3690D63DDF76FDAC /* Pods-RimochaApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MUNTKTLAJH;
+				INFOPLIST_FILE = "RimochaApp/Support/DEVRimochaApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnc.rimocha.dev;
+				PRODUCT_NAME = DEVRimocha;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		256336BF24F88DDE00AFEBD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0932BA5DC61C88451A0A44D4 /* Pods-RimochaApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MUNTKTLAJH;
+				INFOPLIST_FILE = "RimochaApp/Support/DEVRimochaApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnc.rimocha.dev;
+				PRODUCT_NAME = DEVRimocha;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		256336D724F88E9200AFEBD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 616A468C3690D63DDF76FDAC /* Pods-RimochaApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MUNTKTLAJH;
+				INFOPLIST_FILE = "RimochaApp/Support/STGRimochaApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnc.rimocha.stg;
+				PRODUCT_NAME = STGRimocha;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		256336D824F88E9200AFEBD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0932BA5DC61C88451A0A44D4 /* Pods-RimochaApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MUNTKTLAJH;
+				INFOPLIST_FILE = "RimochaApp/Support/STGRimochaApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnc.rimocha.stg;
+				PRODUCT_NAME = STGRimocha;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		25F0204324F747BF00F86402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25F0204424F747BF00F86402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25F0204624F747BF00F86402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 616A468C3690D63DDF76FDAC /* Pods-RimochaApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MUNTKTLAJH;
+				INFOPLIST_FILE = "RimochaApp/Support/RimochaApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnc.rimocha;
+				PRODUCT_NAME = Rimocha;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25F0204724F747BF00F86402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0932BA5DC61C88451A0A44D4 /* Pods-RimochaApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MUNTKTLAJH;
+				INFOPLIST_FILE = "RimochaApp/Support/RimochaApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnc.rimocha;
+				PRODUCT_NAME = Rimocha;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		256336BD24F88DDE00AFEBD9 /* Build configuration list for PBXNativeTarget "DEVRimochaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				256336BE24F88DDE00AFEBD9 /* Debug */,
+				256336BF24F88DDE00AFEBD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		256336D624F88E9200AFEBD9 /* Build configuration list for PBXNativeTarget "STGRimochaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				256336D724F88E9200AFEBD9 /* Debug */,
+				256336D824F88E9200AFEBD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25F0202C24F747B600F86402 /* Build configuration list for PBXProject "RimochaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F0204324F747BF00F86402 /* Debug */,
+				25F0204424F747BF00F86402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25F0204524F747BF00F86402 /* Build configuration list for PBXNativeTarget "RimochaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F0204624F747BF00F86402 /* Debug */,
+				25F0204724F747BF00F86402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25F0202924F747B600F86402 /* Project object */;
+}
