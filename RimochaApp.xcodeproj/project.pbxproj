@@ -21,7 +21,6 @@
 		256336B124F88DDE00AFEBD9 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA359324F7506800095715 /* Define.swift */; };
 		256336B224F88DDE00AFEBD9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259A5C3224F78BF0004AF37E /* HomeViewController.swift */; };
 		256336B324F88DDE00AFEBD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F0203624F747B700F86402 /* SceneDelegate.swift */; };
-		256336B524F88DDE00AFEBD9 /* Pods_RimochaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E50EA79B1952F2D1359ABA /* Pods_RimochaApp.framework */; };
 		256336B724F88DDE00AFEBD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25F0203F24F747BF00F86402 /* LaunchScreen.storyboard */; };
 		256336B924F88DDE00AFEBD9 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259A5C3424F78C03004AF37E /* Home.storyboard */; };
 		256336BA24F88DDE00AFEBD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25F0203D24F747BF00F86402 /* Assets.xcassets */; };
@@ -34,7 +33,6 @@
 		256336CA24F88E9200AFEBD9 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25EA359324F7506800095715 /* Define.swift */; };
 		256336CB24F88E9200AFEBD9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259A5C3224F78BF0004AF37E /* HomeViewController.swift */; };
 		256336CC24F88E9200AFEBD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F0203624F747B700F86402 /* SceneDelegate.swift */; };
-		256336CE24F88E9200AFEBD9 /* Pods_RimochaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E50EA79B1952F2D1359ABA /* Pods_RimochaApp.framework */; };
 		256336D024F88E9200AFEBD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25F0203F24F747BF00F86402 /* LaunchScreen.storyboard */; };
 		256336D224F88E9200AFEBD9 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259A5C3424F78C03004AF37E /* Home.storyboard */; };
 		256336D324F88E9200AFEBD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25F0203D24F747BF00F86402 /* Assets.xcassets */; };
@@ -105,11 +103,13 @@
 		25F0203E24F747BF00F86402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25F0203D24F747BF00F86402 /* Assets.xcassets */; };
 		25F0204124F747BF00F86402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25F0203F24F747BF00F86402 /* LaunchScreen.storyboard */; };
 		25F6AA9324F7BE19003646C9 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F6AA9224F7BE19003646C9 /* UIButtonExtension.swift */; };
+		654C38968C0325B9E4CE83C0 /* Pods_RimochaApp_DEVRimochaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7A1E964F5446CC305788E6C /* Pods_RimochaApp_DEVRimochaApp.framework */; };
 		C0411CBFB487C5B82F521486 /* Pods_RimochaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E50EA79B1952F2D1359ABA /* Pods_RimochaApp.framework */; };
+		C1133C222BF4AA1E1D233560 /* Pods_RimochaApp_STGRimochaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84A0B4CC0366571D16203C5F /* Pods_RimochaApp_STGRimochaApp.framework */; };
+		D675AFCF4BE9CDEE3429EBFA /* Pods_RimochaApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10E50EA79B1952F2D1359ABA /* Pods_RimochaApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0932BA5DC61C88451A0A44D4 /* Pods-RimochaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RimochaApp.release.xcconfig"; path = "Target Support Files/Pods-RimochaApp/Pods-RimochaApp.release.xcconfig"; sourceTree = "<group>"; };
 		10E50EA79B1952F2D1359ABA /* Pods_RimochaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RimochaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		252AE4CB24FCE0EB00A856C2 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		252AE4CF24FCE10B00A856C2 /* HomeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocol.swift; sourceTree = "<group>"; };
@@ -146,7 +146,14 @@
 		25F0204024F747BF00F86402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25F0204224F747BF00F86402 /* RimochaApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RimochaApp-Info.plist"; sourceTree = "<group>"; };
 		25F6AA9224F7BE19003646C9 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
-		616A468C3690D63DDF76FDAC /* Pods-RimochaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RimochaApp.debug.xcconfig"; path = "Target Support Files/Pods-RimochaApp/Pods-RimochaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		7F1CC5E1AA9FC2DB15B54069 /* Pods-RimochaApp-STGRimochaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RimochaApp-STGRimochaApp.debug.xcconfig"; path = "Target Support Files/Pods-RimochaApp-STGRimochaApp/Pods-RimochaApp-STGRimochaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		834C8DBF62774B20EB62588A /* Pods-RimochaApp-DEVRimochaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RimochaApp-DEVRimochaApp.debug.xcconfig"; path = "Target Support Files/Pods-RimochaApp-DEVRimochaApp/Pods-RimochaApp-DEVRimochaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		84A0B4CC0366571D16203C5F /* Pods_RimochaApp_STGRimochaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RimochaApp_STGRimochaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FFE5EBE8A61FD902FB6A3A /* Pods-RimochaApp-STGRimochaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RimochaApp-STGRimochaApp.release.xcconfig"; path = "Target Support Files/Pods-RimochaApp-STGRimochaApp/Pods-RimochaApp-STGRimochaApp.release.xcconfig"; sourceTree = "<group>"; };
+		9E346B105D83D72C81FC1FBE /* Pods-RimochaApp-DEVRimochaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RimochaApp-DEVRimochaApp.release.xcconfig"; path = "Target Support Files/Pods-RimochaApp-DEVRimochaApp/Pods-RimochaApp-DEVRimochaApp.release.xcconfig"; sourceTree = "<group>"; };
+		A7A1E964F5446CC305788E6C /* Pods_RimochaApp_DEVRimochaApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RimochaApp_DEVRimochaApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C78E3B3D63F58AB590DC5C92 /* Pods-RimochaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RimochaApp.release.xcconfig"; path = "Target Support Files/Pods-RimochaApp/Pods-RimochaApp.release.xcconfig"; sourceTree = "<group>"; };
+		CC43C825FEAE8C92D85816F6 /* Pods-RimochaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RimochaApp.debug.xcconfig"; path = "Target Support Files/Pods-RimochaApp/Pods-RimochaApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,7 +161,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				256336B524F88DDE00AFEBD9 /* Pods_RimochaApp.framework in Frameworks */,
+				654C38968C0325B9E4CE83C0 /* Pods_RimochaApp_DEVRimochaApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,7 +169,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				256336CE24F88E9200AFEBD9 /* Pods_RimochaApp.framework in Frameworks */,
+				C1133C222BF4AA1E1D233560 /* Pods_RimochaApp_STGRimochaApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0411CBFB487C5B82F521486 /* Pods_RimochaApp.framework in Frameworks */,
+				D675AFCF4BE9CDEE3429EBFA /* Pods_RimochaApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,8 +335,12 @@
 		B05D9E7A2FE756C338636AAD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				616A468C3690D63DDF76FDAC /* Pods-RimochaApp.debug.xcconfig */,
-				0932BA5DC61C88451A0A44D4 /* Pods-RimochaApp.release.xcconfig */,
+				CC43C825FEAE8C92D85816F6 /* Pods-RimochaApp.debug.xcconfig */,
+				C78E3B3D63F58AB590DC5C92 /* Pods-RimochaApp.release.xcconfig */,
+				834C8DBF62774B20EB62588A /* Pods-RimochaApp-DEVRimochaApp.debug.xcconfig */,
+				9E346B105D83D72C81FC1FBE /* Pods-RimochaApp-DEVRimochaApp.release.xcconfig */,
+				7F1CC5E1AA9FC2DB15B54069 /* Pods-RimochaApp-STGRimochaApp.debug.xcconfig */,
+				91FFE5EBE8A61FD902FB6A3A /* Pods-RimochaApp-STGRimochaApp.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -337,6 +349,8 @@
 			isa = PBXGroup;
 			children = (
 				10E50EA79B1952F2D1359ABA /* Pods_RimochaApp.framework */,
+				A7A1E964F5446CC305788E6C /* Pods_RimochaApp_DEVRimochaApp.framework */,
+				84A0B4CC0366571D16203C5F /* Pods_RimochaApp_STGRimochaApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -348,11 +362,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 256336BD24F88DDE00AFEBD9 /* Build configuration list for PBXNativeTarget "DEVRimochaApp" */;
 			buildPhases = (
-				256336AA24F88DDE00AFEBD9 /* [CP] Check Pods Manifest.lock */,
+				7B3CCE9CD0C32B3F447E6CDA /* [CP] Check Pods Manifest.lock */,
 				256336AB24F88DDE00AFEBD9 /* Sources */,
 				256336B424F88DDE00AFEBD9 /* Frameworks */,
 				256336B624F88DDE00AFEBD9 /* Resources */,
-				256336BC24F88DDE00AFEBD9 /* [CP] Embed Pods Frameworks */,
+				57736B97938CDB2B623D2090 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -367,11 +381,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 256336D624F88E9200AFEBD9 /* Build configuration list for PBXNativeTarget "STGRimochaApp" */;
 			buildPhases = (
-				256336C324F88E9200AFEBD9 /* [CP] Check Pods Manifest.lock */,
+				EF3FCF0DAFD88B91A3728960 /* [CP] Check Pods Manifest.lock */,
 				256336C424F88E9200AFEBD9 /* Sources */,
 				256336CD24F88E9200AFEBD9 /* Frameworks */,
 				256336CF24F88E9200AFEBD9 /* Resources */,
-				256336D524F88E9200AFEBD9 /* [CP] Embed Pods Frameworks */,
+				1C4041B01B52CE5D651C696C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -505,7 +519,41 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RimochaApp/Pods-RimochaApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		256336AA24F88DDE00AFEBD9 /* [CP] Check Pods Manifest.lock */ = {
+		1C4041B01B52CE5D651C696C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RimochaApp-STGRimochaApp/Pods-RimochaApp-STGRimochaApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RimochaApp-STGRimochaApp/Pods-RimochaApp-STGRimochaApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RimochaApp-STGRimochaApp/Pods-RimochaApp-STGRimochaApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57736B97938CDB2B623D2090 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RimochaApp-DEVRimochaApp/Pods-RimochaApp-DEVRimochaApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RimochaApp-DEVRimochaApp/Pods-RimochaApp-DEVRimochaApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RimochaApp-DEVRimochaApp/Pods-RimochaApp-DEVRimochaApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B3CCE9CD0C32B3F447E6CDA /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -520,67 +568,11 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RimochaApp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RimochaApp-DEVRimochaApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		256336BC24F88DDE00AFEBD9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RimochaApp/Pods-RimochaApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RimochaApp/Pods-RimochaApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RimochaApp/Pods-RimochaApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		256336C324F88E9200AFEBD9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RimochaApp-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		256336D524F88E9200AFEBD9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RimochaApp/Pods-RimochaApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-RimochaApp/Pods-RimochaApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RimochaApp/Pods-RimochaApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D0AC465BF7A1967CFA407F98 /* [CP] Check Pods Manifest.lock */ = {
@@ -599,6 +591,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-RimochaApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF3FCF0DAFD88B91A3728960 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RimochaApp-STGRimochaApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -714,11 +728,11 @@
 /* Begin XCBuildConfiguration section */
 		256336BE24F88DDE00AFEBD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 616A468C3690D63DDF76FDAC /* Pods-RimochaApp.debug.xcconfig */;
+			baseConfigurationReference = 834C8DBF62774B20EB62588A /* Pods-RimochaApp-DEVRimochaApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MUNTKTLAJH;
+				DEVELOPMENT_TEAM = CY3H774RHW;
 				INFOPLIST_FILE = "RimochaApp/Support/DEVRimochaApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -735,11 +749,11 @@
 		};
 		256336BF24F88DDE00AFEBD9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0932BA5DC61C88451A0A44D4 /* Pods-RimochaApp.release.xcconfig */;
+			baseConfigurationReference = 9E346B105D83D72C81FC1FBE /* Pods-RimochaApp-DEVRimochaApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = MUNTKTLAJH;
+				DEVELOPMENT_TEAM = CY3H774RHW;
 				INFOPLIST_FILE = "RimochaApp/Support/DEVRimochaApp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -756,7 +770,7 @@
 		};
 		256336D724F88E9200AFEBD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 616A468C3690D63DDF76FDAC /* Pods-RimochaApp.debug.xcconfig */;
+			baseConfigurationReference = 7F1CC5E1AA9FC2DB15B54069 /* Pods-RimochaApp-STGRimochaApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -776,7 +790,7 @@
 		};
 		256336D824F88E9200AFEBD9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0932BA5DC61C88451A0A44D4 /* Pods-RimochaApp.release.xcconfig */;
+			baseConfigurationReference = 91FFE5EBE8A61FD902FB6A3A /* Pods-RimochaApp-STGRimochaApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -910,7 +924,7 @@
 		};
 		25F0204624F747BF00F86402 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 616A468C3690D63DDF76FDAC /* Pods-RimochaApp.debug.xcconfig */;
+			baseConfigurationReference = CC43C825FEAE8C92D85816F6 /* Pods-RimochaApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -930,7 +944,7 @@
 		};
 		25F0204724F747BF00F86402 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0932BA5DC61C88451A0A44D4 /* Pods-RimochaApp.release.xcconfig */;
+			baseConfigurationReference = C78E3B3D63F58AB590DC5C92 /* Pods-RimochaApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
